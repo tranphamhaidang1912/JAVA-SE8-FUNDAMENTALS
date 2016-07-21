@@ -7,9 +7,9 @@ https://vi.wikipedia.org/wiki/Ph%C3%A9p_to%C3%A1n_thao_t%C3%A1c_bithttps://vi.wi
 
 Trong tài liệu này, người ta có đề cập đến việc dịch chuyển bit trong Java, cụ thể là Shift Left và Shift Right:
 
-	- Shift Left (<<): Nếu như kiểu của toán hạng bên trái là int thì chỉ có 5 bit cuối của toán hạng bên phải được sử dụng như là khoảng cách dịch chuyển. Nó giống với việc toán hạng bên phải được sử dụng cho một toán tử luận lý thao tác bit AND (&) với giá trị che đậy 0x1f(0b11111). Khoảng cách dịch chuyển luôn nằm trong khoảng từ 0 tới 31 vì 5 bit được sử dụng tương ứng với miền dịch chuyển là 2^5.
+	- Nếu như kiểu của toán hạng bên trái là int thì chỉ có 5 bit cuối của toán hạng bên phải được sử dụng như là khoảng cách dịch chuyển. Nó giống với việc toán hạng bên phải được sử dụng cho một toán tử luận lý thao tác bit AND (&) với giá trị che đậy 0x1f(0b11111). Khoảng cách dịch chuyển luôn nằm trong khoảng từ 0 tới 31 vì 5 bit được sử dụng tương ứng với miền dịch chuyển là 2^5.
 
-	- Shift Right (>>): Nếu như kiểu của toán hạng bên trái là long thì chỉ có 6 bit cuối của toán hạng bên phải được sử dụng như là khoảng cách dịch chuyển. Nó giống với việc toán hạng bên phải được sử dụng cho một toán tử luận lý thao tác bit AND (&) với giá trị che đậy 0x3f(0b111111). Khoảng cách dịch chuyển luôn nằm trong khoảng từ 0 tới 63 vì 6 bit được sử dụng tương ứng với miền dịch chuyển là 2^6.
+	- Nếu như kiểu của toán hạng bên trái là long thì chỉ có 6 bit cuối của toán hạng bên phải được sử dụng như là khoảng cách dịch chuyển. Nó giống với việc toán hạng bên phải được sử dụng cho một toán tử luận lý thao tác bit AND (&) với giá trị che đậy 0x3f(0b111111). Khoảng cách dịch chuyển luôn nằm trong khoảng từ 0 tới 63 vì 6 bit được sử dụng tương ứng với miền dịch chuyển là 2^6.
 	
 
 Chúc cô một buổi chiều tốt lành,
